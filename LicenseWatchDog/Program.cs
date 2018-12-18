@@ -11,7 +11,14 @@ namespace LicenseWatchDog
             MainClass mc = new MainClass();
 
             Console.WriteLine("License Watch Dog Manager :: start app");
-            mc.ExecTask();
+            Console.WriteLine("Press ESC tp stop");
+            while (!Console.KeyAvailable)
+            {
+                mc.ExecTask();
+                Console.WriteLine("sleep start main task");
+                Thread.Sleep(1000);
+                Console.WriteLine("sleep end main task");
+            }
             Console.WriteLine("License Watch Dog Manager :: end app");
 
         }
@@ -19,9 +26,10 @@ namespace LicenseWatchDog
         private void ExecTask()
         {
             Task taskA = Task.Run(() => LicenseTask());
-            Console.WriteLine("taskA Status: {0}", taskA.Status);
+
             try
             {
+                Console.WriteLine("taskA Status: {0}", taskA.Status);
                 taskA.Wait();
                 Console.WriteLine("taskA Status: {0}", taskA.Status);
             }
@@ -33,11 +41,10 @@ namespace LicenseWatchDog
 
         private void LicenseTask()
         {
-            while (true)
-            {
-                Thread.Sleep(1000);
-                Console.Write(".");
-            }
+            Console.WriteLine("Execute LicenseTask :: start");
+            Console.WriteLine("current tasl {0}", Thread.CurrentThread.ToString());
+            Task.Sleep(3000);
+            Console.WriteLine("Execute LicenseTask :: end");
         }
 
     }

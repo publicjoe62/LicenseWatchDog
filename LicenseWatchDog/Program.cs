@@ -35,7 +35,7 @@ namespace LicenseWatchDog
         {
             while (true)
             {
-                Thread.Sleep(2000);
+                Thread.Sleep(1000);
                 Console.Write(".");
             }
         }

@@ -1,7 +1,0 @@
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/bin/Debug/LicenseWatchDog.exe
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/bin/Debug/LicenseWatchDog.pdb
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/obj/x86/Debug/LicenseWatchDog.csprojAssemblyReference.cache
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/obj/x86/Debug/LicenseWatchDog.csproj.CoreCompileInputs.cache
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/obj/x86/Debug/LicenseWatchDog.exe
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/obj/x86/Debug/LicenseWatchDog.pdb
-/home/velmans/Dokumente/GitKraken/LicenseWatchDog/LicenseWatchDog/bin/Debug/LicenseWatchDog.exe.config
